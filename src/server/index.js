@@ -46,6 +46,7 @@ const root = {
   post: ({ id }) => mapPost(POSTS[id], id),
   submitPost: ({ input: { id, author, body } }) => {
     const post = { author, body };
+    console.log(post, "this is post");
     let index = POSTS.length;
 
     if (id != null && id >= 0 && id < POSTS.length) {
