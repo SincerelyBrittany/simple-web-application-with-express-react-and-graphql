@@ -7,4 +7,3 @@
 
 Go to http://localhost:4000/graphql to get the GraphiQL server.
 Go to http://localhost:3000 to see the UI.
-# simple-web-application-with-express-react-and-graphql
